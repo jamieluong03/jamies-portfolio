@@ -2,7 +2,7 @@
 Jamie Luong | Frontend Developer Portfolio
 
 ## Link
-[Portfolio](jamieluong.com)
+[Portfolio](https://jamieluong.com/)
 
 ## Tech Stack
 * Framework: Next.js
