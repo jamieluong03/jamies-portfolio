@@ -111,6 +111,14 @@ export const experience = [
 
 export const projects = [
     {
+        name: 'BI Dashboard',
+        image: '/analytics-dashboard-screenshot.png',
+        link: 'https://github.com/jamieluong03/BI-Dashboard',
+        details: '[IN PROGRESS] Currently building a dashboard focusing on complex SQL query optimization, real-time data visualization, and AI-driven business insights.',
+        technologies: ['HTML', 'TailwindCSS', 'Javascript', 'Next.js', 'TanStack Query', 'Supabase/PostgreSQL', 'shadcn/ui', 'Recharts']
+        
+    },
+    {
         name: 'MedBuddy',
         image: '/medbuddy.png',
         link: 'https://github.com/jamieluong03/MedBuddy-project',
