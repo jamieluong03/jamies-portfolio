@@ -4,7 +4,7 @@ import { projects } from '../lib/data';
 export function Project() {
     return (
         <>
-            <section id="projects" className="relative">
+            <section id="projects" className="relative w-full">
                 <div
                     style={{
                         backgroundImage: `url('/desktop-pink-bg.png')`,
@@ -36,7 +36,7 @@ export function Project() {
                         </h1>
                         <div className="ml-5 w-full h-0.5 bg-gradient-to-r from-black to-gray-400 rotate-180"></div>
                     </div>
-                    <div className="flex flex-wrap gap-5">
+                    <div className="flex flex-wrap gap-5 justify-center">
                         {projects.map((project, index) => (
                             <div key={index} className="w-sm border-2 rounded-2xl border-solid border-(--gray-900) p-5">
                                 <div className="flex justify-between">

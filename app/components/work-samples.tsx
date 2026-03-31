@@ -3,7 +3,7 @@ import { EmblaCarousel } from "./embla-carousel";
 export function WorkSamples() {
     return (
         <>
-            <section id="work-samples" className="relative w-full">
+            <section id="work-samples" className="relative lg:w-full lg:h-full lg:pb-15">
                 <div
                     style={{
                         backgroundImage: `url('/desktop-gray-bg.png')`,
