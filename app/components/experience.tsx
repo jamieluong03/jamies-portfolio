@@ -3,7 +3,7 @@ import { experience } from "../lib/data";
 
 export function Experience() {
     return (
-        <section id="experience" className="relative lg:w-full">
+        <section id="experience" className="relative w-full">
             <div
                 style={{
                     backgroundImage: `url('/desktop-gray-bg.png')`,
