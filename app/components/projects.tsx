@@ -39,7 +39,7 @@ export function Project() {
                     <div className="flex justify-center w-full gap-5">
                         <div className="flex flex-wrap gap-5 justify-center lg:justify-start max-w-7xl mx-auto">
                         {projects.map((project, index) => (
-                            <div key={index} className="w-xs md:w-sm border-2 rounded-2xl border-solid border-(--gray-900) p-5">
+                            <div key={index} className="w-xs md:w-sm border-2 rounded-2xl border-solid border-(--gray-900) p-5 hover:bg-(--pink-100)">
                                 <div className="flex justify-between">
                                 <h3>{project.name}</h3>
                                 <a href={project.link} className="flex items-center justify-center gap-1 mb-4 bg-gray-900 text-white md:py-2 px-2 md:px-3 rounded md:text-xs font-medium" target="_blank" rel="noopener noreferrer">
