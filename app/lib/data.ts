@@ -114,8 +114,9 @@ export const projects = [
         name: 'BI Dashboard',
         image: '/analytics-dashboard-screenshot.png',
         link: 'https://github.com/jamieluong03/BI-Dashboard',
-        details: '[IN PROGRESS] Currently building a dashboard focusing on complex SQL query optimization, real-time data visualization, and AI-driven business insights.',
-        technologies: ['HTML', 'TailwindCSS', 'Javascript', 'Next.js', 'TanStack Query', 'Supabase/PostgreSQL', 'shadcn/ui', 'Recharts']
+        details: 'Currently building a dashboard focusing on complex SQL query optimization, real-time data visualization, and AI-driven business insights.',
+        technologies: ['TailwindCSS', 'Javascript', 'Next.js', 'TanStack Query', 'Supabase/PostgreSQL', 'shadcn/ui', 'Recharts'],
+        status: 'pending'
         
     },
     {
@@ -123,21 +124,24 @@ export const projects = [
         image: '/medbuddy.png',
         link: 'https://github.com/jamieluong03/MedBuddy-project',
         details: 'A React medication reminder app. All the data is stored in a MySQL database.',
-        technologies: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'Node.js', 'Express.js', 'Sequelize', 'REST API', 'React', 'AJAX']
+        technologies: ['CSS', 'Bootstrap', 'Javascript', 'Node.js', 'Express.js', 'Sequelize', 'REST API', 'React', 'AJAX'],
+        status: 'done'
     },
     {
         name: 'Recipedia',
         image: '/recipedia.png',
         link: 'https://github.com/jamieluong03/Recipedia',
         details: "An online recipe book for users who are inventive and love to cook. Each of the recipes are sorted by their cuisine type. ",
-        technologies: ['HTML', 'CSS', 'Bulma', 'Javascript', 'Node.js', 'Express.js', 'MySQL', 'REST API', 'AJAX']
+        technologies: ['CSS', 'Bulma', 'Javascript', 'Node.js', 'Express.js', 'MySQL', 'REST API', 'AJAX'],
+        status: 'done'
     },
     {
         name: 'Music Space',
         image: '/musicspace.png',
         link: 'https://github.com/jamieluong03/Music-Space',
         details: 'In this music space, the user is able to search for the latest songs, albums, and upcoming shows from their favorite artists.',
-        technologies: ['HTML', 'CSS', 'Bulma', 'REST API', 'Fetch API', 'Javascript', 'jQuery']
+        technologies: ['CSS', 'Bulma', 'REST API', 'Fetch API', 'Javascript', 'jQuery'],
+        status: 'done'
     }
 ];
 
