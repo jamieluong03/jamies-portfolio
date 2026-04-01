@@ -1,11 +1,12 @@
+import { Contact, Experience, Project, Category } from './definition';
 
-export const contact = {
+export const contact:Contact = {
     email: 'jamieluong03@gmail.com',
     github: 'https://github.com/jamieluong03',
     linkedin: 'https://www.linkedin.com/in/jamie-luong-4611b084/'
 };
 
-export const experience = [
+export const experience:Experience = [
     {
         company: 'E. Gluck Corporation',
         title: 'Web Developer',
@@ -109,14 +110,15 @@ export const experience = [
     }
 ];
 
-export const projects = [
+export const projects:Project = [
     {
         name: 'BI Dashboard',
         image: '/analytics-dashboard-screenshot.png',
         link: 'https://github.com/jamieluong03/BI-Dashboard',
+        app: 'https://bi-dashboard-nine.vercel.app/',
         details: 'Currently building a dashboard focusing on complex SQL query optimization, real-time data visualization, and AI-driven business insights.',
         technologies: ['TailwindCSS', 'Javascript', 'Next.js', 'TanStack Query', 'Supabase/PostgreSQL', 'shadcn/ui', 'Recharts'],
-        status: 'pending'
+        live: true
         
     },
     {
@@ -125,7 +127,7 @@ export const projects = [
         link: 'https://github.com/jamieluong03/MedBuddy-project',
         details: 'A React medication reminder app. All the data is stored in a MySQL database.',
         technologies: ['CSS', 'Bootstrap', 'Javascript', 'Node.js', 'Express.js', 'Sequelize', 'REST API', 'React', 'AJAX'],
-        status: 'done'
+        live: false
     },
     {
         name: 'Recipedia',
@@ -133,7 +135,7 @@ export const projects = [
         link: 'https://github.com/jamieluong03/Recipedia',
         details: "An online recipe book for users who are inventive and love to cook. Each of the recipes are sorted by their cuisine type. ",
         technologies: ['CSS', 'Bulma', 'Javascript', 'Node.js', 'Express.js', 'MySQL', 'REST API', 'AJAX'],
-        status: 'done'
+        live: false
     },
     {
         name: 'Music Space',
@@ -141,11 +143,11 @@ export const projects = [
         link: 'https://github.com/jamieluong03/Music-Space',
         details: 'In this music space, the user is able to search for the latest songs, albums, and upcoming shows from their favorite artists.',
         technologies: ['CSS', 'Bulma', 'REST API', 'Fetch API', 'Javascript', 'jQuery'],
-        status: 'done'
+        live: false
     }
 ];
 
-export const categories = [
+export const categories:Category = [
     { 
         id: 1, 
         title: 'Product Detail Pages', 
