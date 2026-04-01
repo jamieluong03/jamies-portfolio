@@ -8,8 +8,8 @@ const navItems: Record<string, { name: string; icon?: React.ReactNode }> = {
   '/': { name: 'home', icon: <Home size={18} /> },
   '/#about': { name: 'about' },
   '/#tech-stack': { name: 'tech stack' },
-  '/#work-samples': { name: 'work samples' },
   '/#projects': { name: 'projects' },
+  '/#work-samples': { name: 'work samples' },
   '/#experience': { name: 'experience' }
 };
 

@@ -48,15 +48,15 @@ export function About() {
                 <h1 className="text-center font-bold text-3xl lg:text-5xl mb-2">Jamie Luong</h1>
               </div>
             </div>
-            <div className="max-w-sm lg:max-w-none lg:mt-10 lg:pl-0 lg:pr-20 sm:mb-10 p-5">
+            <div className="max-w-sm lg:max-w-none lg:mt-30 lg:pl-0 lg:pr-20 sm:mb-10 p-5">
               <p className="mb-4">
-                I’m a Frontend Developer experienced in building and optimizing high-traffic web applications. My work has focused on developing responsive interfaces, reusable UI components, and dynamic features using JavaScript, HTML, and CSS within production environments.
+                I’m a Frontend Software Engineer focused on building high-perfromance, scalable web applications. Professionally, my career has been rooted in the e-commerce space, where I’ve spent the last four years scaling platforms on Shopify and WordPress. This environment taught me how to engineer for scale—building for millions of annual users and ensuring every UI component is as performant as it is responsive. Whether I was authoring API documentation or optimizing the critical rendering path, my goal was always to make the web faster and more reliable.
               </p>
               <p className="mb-4">
-                I’ve led frontend initiatives that improved user engagement, implemented analytics-driven optimizations, and integrated APIs to support complex business requirements. Although much of my recent work has been within e-commerce platforms, my primary focus has always been frontend architecture, performance, and user experience.
+                While my professional roles have focused on the frontend, my personal work is where I dive into the full stack. I’m an engineer who loves the "invisible" parts of an application as much as the interface. My current projects allow me to work across the entire lifecycle—architecting relational databases, building Node.js servers, and managing global state.
               </p>
               <p className="mb-4">
-                I’m now looking to grow into frontend roles beyond e-commerce, where I can contribute to scalable product development and continue expanding my expertise in modern frameworks and engineering best practices.
+                I’m now looking to transition into product-focused engineering roles where I can combine my professional experience in high-traffic ecosystems with my full-stack expertise to build scalable web systems.
               </p>
             </div>
           </div>

@@ -14,8 +14,8 @@ export default function Page() {
     <Intro />
     <About />
     <TechStack />
-    <WorkSamples />
     <Project />
+    <WorkSamples />
     <Experience />
     </section>
     </>
