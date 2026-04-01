@@ -11,13 +11,13 @@ export const experience = [
         title: 'Web Developer',
         dates: 'August 2022 - January 2026',
         details: [
-            'Led frontend development across several high-traffic e-commerce platforms on Shopify and Wordpress, serving 2M+ annual users and generating $2.5M+ in revenue',
-            'Built and maintained responsive, dynamic UI components and landing pages using Javascript, HTML, CSS, and Liquid',
-            'Developed custom client-side tracking integrations (Javascript + GraphQL) to enhance analytics and user behavior insights',
-            'Improved user engagement by 15% by identifying UX friction points through heatmap analysis and implementing frontend optimizations',
+            'Architected and scaled frontend systems for 5 high-traffic e-commerce platforms serving 2M+ annual users and generating $2.5M+ in revenue',
+            'Engineered modular UI components and Liquid-based layouts to ensure consistency and cross-platform scalability',
+            'Developed custom client-side tracking scripts (Javascript + GraphQL) to enhance analytics and user behavior insights',
+            'Improved user engagement by 15% by identifying UX friction points through heatmap analysis and frontend optimizations',
             'Implemented responsive email templates in Klaviyo, building custom HTML/CSS layouts and integrating dynamic product annotations for campaign personalization',
             'Collaborated cross-functionally with marketing team to translate business requirements into scalable frontend solutions',
-            'Authored OpenAPI documentation to support ERP integration, reducing manual order processing by 20%'
+            'Authored OpenAPI specifications to support ERP integration, reducing manual order processing by 20%'
         ],
         work: [
             {
@@ -48,10 +48,10 @@ export const experience = [
         title: 'Frontend Developer',
         dates: 'March 2024 - May 2025',
         details: [
-            'Customized and extended existing frontend architectures to align with evolving business requirements',
-            'Advised clients on platform architecture decisions, balancing technical constraints with long-term scalability',
-            'Developed custom storefront interfaces by translating Figma designs into responsive, production-ready implementations',
-            'Diagnosed and refactored legacy theme code to improve maintainability, performance, and UX consistency'
+            'Architected modular components to support evolving business logic and high-growth requirements',
+            'Consulted on system architecture, providing technical roadmaps that balanced technical constraints with long-term scalability',
+            'Engineered production-ready storefront interfaces from translating complex Figma design specifications',
+            'Diagnosed and refactored legacy codebases, successfully reducing technical debt and optimizing system performance'
         ],
         work: [
             {
@@ -84,9 +84,9 @@ export const experience = [
         details: [
             'Built reusable, modular frontend components for product pages to improve consistency and development efficiency',
             'Implemented automated testing scripts using Python + Selenium to validate frontend functionality and reliability',
-            'Developed AWS Lambda functions (Node.js) to support API-driven integrations between CRM and third-party platforms',
-            'Created internal tools to automate workflows and improve operational efficiency',
-            'Designed SQL-powered BI dashboards to support data-driven decision-making'
+            'Engineered serverless Node.js workflows using AWS Lambda and Secrets Manager for secure API integrations',
+            'Created internal automation tools to optimize operational workflows and efficiency',
+            'Implemented SQL-driven BI dashboards to support data-driven strategic decisions'
         ],
         work: [
             {
