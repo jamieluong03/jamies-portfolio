@@ -36,7 +36,8 @@ export function Project() {
                         </h1>
                         <div className="ml-5 w-full h-0.5 bg-gradient-to-r from-black to-gray-400 rotate-180"></div>
                     </div>
-                    <div className="flex flex-wrap gap-5 justify-center">
+                    <div className="flex justify-center w-full gap-5">
+                        <div className="flex flex-wrap gap-5 justify-start max-w-7xl">
                         {projects.map((project, index) => (
                             <div key={index} className="w-sm border-2 rounded-2xl border-solid border-(--gray-900) p-5">
                                 <div className="flex justify-between">
@@ -65,6 +66,7 @@ export function Project() {
                             </div>
                         )
                         )}
+                        </div>
                     </div>
                 </div>
             </section>

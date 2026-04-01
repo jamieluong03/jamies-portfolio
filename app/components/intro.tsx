@@ -34,7 +34,7 @@ export function Intro() {
             ></div>
             <div className="h-screen flex items-center justify-center relative">
                 <div className="flex flex-col text-center place-items-center w-screen">
-                <div className="text-3xl md:text-5xl font-bold h-24 w-80 md:w-full mb-10">
+                <div className="text-3xl md:text-5xl font-bold h-24 w-80 md:w-full mb-20">
                     <Typewriter
                         options={{
                             autoStart: true,
@@ -46,7 +46,7 @@ export function Intro() {
                             typewriter
                                 .typeString('Hello, I’m Jamie.')
                                 .pauseFor(500)
-                                .typeString('<br />I’m a Frontend Developer.')
+                                .typeString("<br />I'm a Frontend-Focused Software Engineer.")
                                 .pauseFor(5000)
                                 .deleteAll(1)
                                 .start();
@@ -55,7 +55,7 @@ export function Intro() {
                 </div>
                 <div className="flex flex-col">
                     <h1 className="text-center text-(--gray-700) font-bold text-lg lg:text-xl mb-10 w-80 md:w-full">
-                        Frontend Developer | JavaScript | UI Engineering | Performance Optimization
+                        Specializing in building data-driven applications and high-performance web systems.
                     </h1>
                     <ul className="flex-row flex gap-10 align-center justify-center">
                         <li>
