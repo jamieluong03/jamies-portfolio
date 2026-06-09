@@ -55,7 +55,7 @@ export function Intro() {
                 </div>
                 <div className="flex flex-col">
                     <h1 className="text-center text-(--gray-700) font-bold text-lg lg:text-xl mb-10 w-80 md:w-full">
-                        Specializing in building data-driven applications and high-performance web systems.
+                        Specializing in building scalable web architectures, high-performance applications, and optimized e-commerce platforms.
                     </h1>
                     <ul className="flex-row flex gap-10 align-center justify-center">
                         <li>

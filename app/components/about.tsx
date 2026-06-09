@@ -50,7 +50,7 @@ export function About() {
             </div>
             <div className="max-w-sm lg:max-w-none lg:mt-30 lg:pl-0 lg:pr-20 sm:mb-10 p-5">
               <p className="mb-4">
-                I’m a Frontend Software Engineer focused on building high-perfromance, scalable web applications. Professionally, my career has been rooted in the e-commerce space, where I’ve spent the last four years scaling platforms on Shopify and WordPress. This environment taught me how to engineer for scale—building for millions of annual users and ensuring every UI component is as performant as it is responsive. Whether I was authoring API documentation or optimizing the critical rendering path, my goal was always to make the web faster and more reliable.
+                I’m a Frontend-Focused Software Engineer focused on building high-performance, scalable web applications. Professionally, my career has been rooted in the e-commerce space, where I’ve spent the last four years scaling platforms on Shopify and WordPress. This environment taught me how to engineer for scale—building for millions of annual users and ensuring every UI component is as performant as it is responsive. Whether I was authoring API documentation or optimizing the critical rendering path, my goal was always to make the web faster and more reliable.
               </p>
               <p className="mb-4">
                 While my professional roles have focused on the frontend, my personal work is where I dive into the full stack. I’m an engineer who loves the "invisible" parts of an application as much as the interface. My current projects allow me to work across the entire lifecycle—architecting relational databases, building Node.js servers, and managing global state.

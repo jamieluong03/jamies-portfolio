@@ -13,8 +13,9 @@ export const experience:Experience = [
         dates: 'August 2022 - January 2026',
         details: [
             'Architected and scaled frontend systems for 5 high-traffic e-commerce platforms serving 2M+ annual users and generating $2.5M+ in revenue',
+            'Optimized Shopify and WordPress theme architectures, improving Google PageSpeed / Core Web Vitals scores to increase organic SEO traffic and user retention',
             'Engineered modular UI components and Liquid-based layouts to ensure consistency and cross-platform scalability',
-            'Developed custom client-side tracking scripts (Javascript + GraphQL) to enhance analytics and user behavior insights',
+            'Engineered custom client-side event tracking via JavaScript and GraphQL to pass granular data into GA4, while optimizing semantic HTML markup to support SEO metadata tracking and marketing strategies',
             'Improved user engagement by 15% by identifying UX friction points through heatmap analysis and frontend optimizations',
             'Implemented responsive email templates in Klaviyo, building custom HTML/CSS layouts and integrating dynamic product annotations for campaign personalization',
             'Collaborated cross-functionally with marketing team to translate business requirements into scalable frontend solutions',
@@ -85,7 +86,7 @@ export const experience:Experience = [
         details: [
             'Built reusable, modular frontend components for product pages to improve consistency and development efficiency',
             'Implemented automated testing scripts using Python + Selenium to validate frontend functionality and reliability',
-            'Engineered serverless Node.js workflows using AWS Lambda and Secrets Manager for secure API integrations',
+            'Engineered serverless Node.js workflows using AWS Lambda and Secrets Manager for secure API integrations between Zoho CRM and third-party platforms',
             'Created internal automation tools to optimize operational workflows and efficiency',
             'Implemented SQL-driven BI dashboards to support data-driven strategic decisions'
         ],
@@ -116,9 +117,9 @@ export const projects:Project = [
         image: '/analytics-dashboard-screenshot.png',
         link: 'https://github.com/jamieluong03/BI-Dashboard',
         app: 'https://bi-dashboard-nine.vercel.app/',
-        details: 'Currently building a dashboard focusing on complex SQL query optimization, real-time data visualization, and AI-driven business insights.',
-        technologies: ['TailwindCSS', 'Javascript', 'Next.js', 'TanStack Query', 'Supabase/PostgreSQL', 'shadcn/ui', 'Recharts'],
-        live: true
+        details: 'Developed a custom full-stack BI dashboard with Next.js and Supabase to consolidate client tracking data and business KPIs. Implemented optimized SQL database logic and efficient API data-fetching to process large datasets instantly, delivering real-time, interactive performance visualizations.',
+        technologies: ['TailwindCSS', 'Typescript', 'Next.js', 'TanStack Query', 'Supabase (PostgreSQL)', 'shadcn/ui', 'Recharts'],
+        live: false
         
     },
     {
