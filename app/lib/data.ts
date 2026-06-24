@@ -8,52 +8,13 @@ export const contact:Contact = {
 
 export const experience:Experience = [
     {
-        company: 'E. Gluck Corporation',
-        title: 'Web Developer',
-        dates: 'August 2022 - January 2026',
-        details: [
-            'Architected and scaled frontend systems for 5 high-traffic e-commerce platforms serving 2M+ annual users and generating $2.5M+ in revenue',
-            'Optimized Shopify and WordPress theme architectures, improving Google PageSpeed / Core Web Vitals scores to increase organic SEO traffic and user retention',
-            'Engineered modular UI components and Liquid-based layouts to ensure consistency and cross-platform scalability',
-            'Engineered custom client-side event tracking via JavaScript and GraphQL to pass granular data into GA4, while optimizing semantic HTML markup to support SEO metadata tracking and marketing strategies',
-            'Improved user engagement by 15% by identifying UX friction points through heatmap analysis and frontend optimizations',
-            'Implemented responsive email templates in Klaviyo, building custom HTML/CSS layouts and integrating dynamic product annotations for campaign personalization',
-            'Collaborated cross-functionally with marketing team to translate business requirements into scalable frontend solutions',
-            'Authored OpenAPI specifications to support ERP integration, reducing manual order processing by 20%'
-        ],
-        work: [
-            {
-                title: 'Armitron',
-                link: 'https://www.armitron.com/'
-            },
-            {
-                title: 'Torgoen',
-                link: 'https://www.torgoen.com/'
-            },
-            {
-                title: 'WITHit',
-                link: 'https://www.withitgear.com/'
-            },
-            {
-                title: 'Armitron Connect',
-                link: 'https://armitronconnect.com/',
-            },
-            {
-                title: 'E Gluck',
-                link: 'https://egluck.com/'
-            }
-        ],
-        active: false
-    },
-    {
         company: 'Freelance',
         title: 'Frontend Developer',
-        dates: 'March 2024 - May 2025',
+        dates: 'March 2024 - Present',
         details: [
-            'Architected modular components to support evolving business logic and high-growth requirements',
-            'Consulted on system architecture, providing technical roadmaps that balanced technical constraints with long-term scalability',
-            'Engineered production-ready storefront interfaces from translating complex Figma design specifications',
-            'Diagnosed and refactored legacy codebases, successfully reducing technical debt and optimizing system performance'
+            'Translated Figma designs into production-ready Shopify storefronts using Shadow DOM, Flexbox, CSS Grid, and semantic HTML5 — working directly with clients from spec to launch',
+            'Migrated 2 Zendesk brand instances to a new independent account, transferring 2,000+ tickets, 19 ticket fields, 6 views, 2 forms, 12 business rules, and ~30 help center articles using Python scripts and Postman.',
+            'Diagnosed and resolved Google Search Console errors — including invalid structured data and crawlability issues — to improve organic search eligibility for client sites.'
         ],
         work: [
             {
@@ -80,15 +41,50 @@ export const experience:Experience = [
         active: false
     },
     {
+        company: 'E. Gluck Corporation',
+        title: 'Web Developer',
+        dates: 'August 2022 - January 2026',
+        details: [
+            'Scaled frontend systems across 5 CMS and e-commerce platforms serving 2M+ annual users and generating $2.5M+ in revenue — architecting a reusable component library and Liquid-based layouts that kept things consistent and maintainable as the platforms grew',
+            'Improved user engagement by 15% through heatmap analysis, accessibility improvements, and targeted UI optimizations that addressed real friction points in the user experience',
+            'Built campaign landing pages and Klaviyo email templates in close collaboration with the marketing team, translating campaign requirements into responsive, on-brand frontend work',
+            'Developed custom JavaScript and GraphQL tracking scripts to capture GA4 user behavior data that wasn\'t available through existing analytics tools',
+            'Integrated an EDI/ERP system using JSON and OpenAPI specs to automate order fulfillment workflows, cutting manual processing time by 20%+',
+            'Audited Core Web Vitals across platforms and identified third-party tracking scripts as the primary PageSpeed bottlenecks, implementing deferred and async loading strategies to improve performance'
+        ],
+        work: [
+            {
+                title: 'Armitron',
+                link: 'https://www.armitron.com/'
+            },
+            {
+                title: 'Torgoen',
+                link: 'https://www.torgoen.com/'
+            },
+            {
+                title: 'WITHit',
+                link: 'https://www.withitgear.com/'
+            },
+            {
+                title: 'Armitron Connect',
+                link: 'https://armitronconnect.com/',
+            },
+            {
+                title: 'E Gluck',
+                link: 'https://egluck.com/'
+            }
+        ],
+        active: false
+    },
+    {
         company: 'EverBrands, Inc.',
         title: 'Web Developer',
         dates: 'March 2021 - August 2022',
         details: [
-            'Built reusable, modular frontend components for product pages to improve consistency and development efficiency',
-            'Implemented automated testing scripts using Python + Selenium to validate frontend functionality and reliability',
-            'Engineered serverless Node.js workflows using AWS Lambda and Secrets Manager for secure API integrations between Zoho CRM and third-party platforms',
-            'Created internal automation tools to optimize operational workflows and efficiency',
-            'Implemented SQL-driven BI dashboards to support data-driven strategic decisions'
+            'Inherited a legacy codebase and rebuilt it as a library of accessible, reusable frontend components — improving consistency across product pages and ensuring cross-browser compatibility across Chrome, Safari, Firefox, and Edge',
+            'Wrote automated test scripts with Python and Selenium and maintained unit tests with Jest to catch regressions and keep the frontend reliable',
+            'Extended Shopify\'s native Zoho CRM integration by building serverless AWS Lambda functions with Secrets Manager to securely surface additional customer data on the frontend',
+            'Built custom SQL dashboards in Zoho CRM to give the internal sales team real-time visibility into operational metrics that weren\'t available in the default reporting tools'
         ],
         work: [
             {
@@ -103,9 +99,8 @@ export const experience:Experience = [
         title: 'Frontend Developer Intern',
         dates: 'September 2020 - March 2021',
         details: [
-            'Developed interactive UI components using React/Redux and Typescript for an AI-driven medical notes application',
-            'Enhanced UX through modular component design and state management optimization',
-            'Refactored legacy components and improved code maintainability through unit testing with Jest/Enzyme'
+            'Built interactive UI components using React, Redux, and TypeScript for an AI-driven medical notes application',
+            'Improved component maintainability and state management by refactoring legacy code and adding unit test coverage with Jest and Enzyme'
         ],
         active: false
     }
