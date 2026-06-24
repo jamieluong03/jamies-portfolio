@@ -6,11 +6,11 @@ import { Home, Menu, X } from 'lucide-react';
 
 const navItems: Record<string, { name: string; icon?: React.ReactNode }> = {
   '/': { name: 'home', icon: <Home size={18} /> },
-  '/#about': { name: 'about' },
-  '/#tech-stack': { name: 'tech stack' },
-  '/#projects': { name: 'projects' },
   '/#work-samples': { name: 'work samples' },
-  '/#experience': { name: 'experience' }
+  '/#experience': { name: 'experience' },
+  '/#projects': { name: 'projects' },
+  '/#tech-stack': { name: 'tech stack' },
+  '/#about': { name: 'about' }
 };
 
 export function Navbar() {

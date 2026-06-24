@@ -12,11 +12,11 @@ export default function Page() {
     <Navbar />
     <section className="flex flex-col md:flex-column place-items-center">
     <Intro />
-    <About />
-    <TechStack />
-    <Project />
     <WorkSamples />
     <Experience />
+    <Project />
+    <TechStack />
+    <About />
     </section>
     </>
   )
