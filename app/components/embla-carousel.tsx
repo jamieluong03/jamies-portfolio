@@ -84,7 +84,7 @@ export const EmblaCarousel = () => {
                             className="flex-[0_0_85%] sm:flex-[0_0_45%] lg:flex-[0_0_30%] min-w-0 relative"
                         >
                             <div
-                                className="group relative h-96 w-full rounded-2xl overflow-hidden border border-white/10 bg-zinc-300 cursor-pointer"
+                                className="group relative h-70 md:h-150 w-full rounded-2xl overflow-hidden border border-white/10 bg-zinc-300 cursor-pointer"
                                 onClick={() => handleOpen(cat.id)}
                             >
                                 <Image
@@ -92,14 +92,26 @@ export const EmblaCarousel = () => {
                                     alt={cat.title}
                                     fill
                                     sizes="100vw"
-                                    className="object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                                    className="object-cover md:opacity-70 group-hover:opacity-100 transition-opacity duration-300"
                                 />
-                                <div className="absolute inset-0 border border-(--gray-600) bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-6">
-                                    <span className="text-sm font-mono text-white mb-1">
-                                        {cat.images.length} Samples
-                                    </span>
+                                <div className="hidden md:flex absolute inset-0 border border-(--gray-600) bg-gradient-to-t from-black/80 via-black/40 via-40% to-transparent flex-col justify-end p-6">
                                     <h2 className="text-white">{cat.title}</h2>
+                                    <span className="text-sm font-mono text-white mt-1">
+                                        {cat.brands} — {cat.images.length} Samples
+                                    </span>
+                                    <p className="text-white text-xs mt-1">
+                                        {cat.description}
+                                    </p>
                                 </div>
+                            </div>
+                            <div className="md:hidden p-4 flex flex-col">
+                                <h3 className="text-(--gray-900)">{cat.title}</h3>
+                                <span className="text-xs font-mono text-(--gray-700) mt-1">
+                                    {cat.images.length} Samples
+                                </span>
+                                <p className="text-(--gray-700) text-xs mt-1">
+                                    {cat.description}
+                                </p>
                             </div>
                         </div>
                     ))}

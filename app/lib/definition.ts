@@ -36,6 +36,8 @@ export interface Categories {
     id: number;
     title: string;
     thumb: string;
+    brands: string;
+    description: string;
     count: number;
     images: string[];
 }

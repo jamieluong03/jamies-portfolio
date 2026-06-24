@@ -147,7 +147,9 @@ export const categories:Category = [
     { 
         id: 1, 
         title: 'Product Detail Pages', 
-        thumb: '/pdp/watch-pdp.png', 
+        thumb: '/pdp/watch-pdp.png',
+        brands: 'WITHit · Camp Snap · Saint Jane Beauty · Popfunk · Weldwork · Armitron',
+        description: 'Product detail pages built across 6 brands in Shopify and WordPress — each with different design systems, product types, and conversion requirements. Work spans watch and accessory brands, a beauty label, a photography product, and a pop culture retailer. Focus on mobile-first responsive layouts, consistent component patterns, and Liquid templating within theme constraints.',
         count: 9,
         images: [
             '/pdp/watch-pdp.png',
@@ -165,6 +167,8 @@ export const categories:Category = [
         id: 2, 
         title: 'Product Listing Pages', 
         thumb: '/plp/mens-watches.png', 
+        brands: 'Armitron · Torgoen',
+        description: 'Collection and category pages for two watch brands with distinct visual identities. Built within Shopify\'s theme architecture using Liquid and custom JavaScript — focused on filtering, grid layout consistency, and cross-browser rendering. Added SEO content sections at the top and bottom of select PLPs to support organic search visibility, and built custom media sections to enrich the browsing experience beyond standard product grids.',
         count: 4,
         images: [
             '/plp/mens-watches.png',
@@ -177,6 +181,8 @@ export const categories:Category = [
         id: 3, 
         title: 'Landing Pages', 
         thumb: '/lp/pop-hp.png', 
+        brands: 'Popfunk · WITHit · Weldwork Design · Armitron · Torgoen · Weldwork',
+        description: 'Campaign and brand landing pages across 6 clients, built in close collaboration with marketing teams to translate campaign briefs into responsive, on-brand frontend builds. Covers promotional campaigns, product launches, and brand storytelling pages — each tailored to the brand\'s design language and conversion goals.',
         count: 11,
         images: [
             '/lp/pop-hp.png',
@@ -196,6 +202,8 @@ export const categories:Category = [
         id: 4,
         title: 'Navigation Menus', 
         thumb: '/menus/nav-menu.png', 
+        brands: 'Armitron · Weldwork',
+        description: 'Custom navigation builds for two brands with different structural requirements — mega menu architecture for Armitron\'s broad product catalog and a streamlined nav for Weldwork\'s focused offering. Built with accessibility and mobile responsiveness as primary constraints.',
         count: 3,
         images: [
             '/menus/nav-menu.png',
