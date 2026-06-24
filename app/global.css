@@ -24,6 +24,7 @@
 
   body {
     @apply bg-[var(--bg-main)] text-[var(--gray-700)] antialiased;
+    font-family: var(--font-outfit);
   }
 
   h1, h2, h3 {

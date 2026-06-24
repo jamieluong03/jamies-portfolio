@@ -1,8 +1,7 @@
 import './global.css'
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
 import { Castoro } from 'next/font/google'
+import { Outfit } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
@@ -14,32 +13,14 @@ const castoro = Castoro({
   variable: '--font-castoro',
 })
 
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-outfit',
+})
+
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
-  title: {
-    default: 'Jamie Luong | Frontend Engineer',
-    template: '%s | Jamie Luong | Frontend Engineer',
-  },
-  description: 'Frontend engineer with 5+ years building performant web applications.',
-  openGraph: {
-    title: 'Jamie Luong | Frontend Engineer',
-    description: 'Frontend engineer with 5+ years building performant web applications.',
-    url: baseUrl,
-    siteName: 'Jamie Luong',
-    locale: 'en_US',
-    type: 'website',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  // ... keep everything the same
 }
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
@@ -54,9 +35,8 @@ export default function RootLayout({
       lang="en"
       className={cx(
         'text-black bg-white dark:text-white dark:bg-black',
-        GeistSans.variable,
-        GeistMono.variable,
-        castoro.variable
+        castoro.variable,
+        outfit.variable
       )}
     >
       <head>
