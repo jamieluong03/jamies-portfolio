@@ -1,4 +1,3 @@
-import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
@@ -10,15 +9,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Jamie Luong Portfolio',
-    template: '%s | Jamie Luong Portfolio',
+    default: 'Jamie Luong | Frontend Engineer',
+    template: '%s | Jamie Luong | Frontend Engineer',
   },
-  description: 'This is my portfolio built on Next.js with Tailwind CSS.',
+  description: 'Frontend engineer with 5+ years building performant web applications.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio built on Next.js with Tailwind CSS.',
+    title: 'Jamie Luong | Frontend Engineer',
+    description: 'Frontend engineer with 5+ years building performant web applications.',
     url: baseUrl,
-    siteName: 'Jamie Luong Portfolio',
+    siteName: 'Jamie Luong',
     locale: 'en_US',
     type: 'website',
   },
