@@ -121,8 +121,8 @@ export const projects:Project = [
         name: 'MedBuddy',
         image: '/medbuddy.png',
         link: 'https://github.com/jamieluong03/MedBuddy-project',
-        details: 'A React medication reminder app. All the data is stored in a MySQL database.',
-        technologies: ['CSS', 'Bootstrap', 'Javascript', 'Node.js', 'Express.js', 'Sequelize', 'REST API', 'React', 'AJAX'],
+        details: 'A full-stack medication management app with relational schema design, async API routes, and server-side notification logic for timely medication reminders. Built independently as a capstone project exploring full-stack architecture end to end.',
+        technologies: ['CSS', 'Bootstrap', 'Javascript', 'Node.js', 'Express.js', 'Sequelize', 'REST API', 'React'],
         live: false
     },
     // {

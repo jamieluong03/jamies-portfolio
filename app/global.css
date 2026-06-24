@@ -28,6 +28,8 @@
 
   h1, h2, h3 {
     @apply font-bold tracking-tighter text-[var(--gray-900)];
+    font-family: var(--font-castoro);
+    font-weight: 400;
   }
 
   h1 { @apply text-4xl; }
