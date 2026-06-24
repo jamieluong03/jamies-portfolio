@@ -30,7 +30,7 @@ export function WorkSamples() {
                 ></div>
                 <div className="relative h-full pt-10 mb-20">
                     <div className="flex items-center w-80 mx-auto lg:w-full pt-10 lg:px-20 pb-10">
-                        <h1 className="text-3xl lg:text-5xl font-semibold tracking-tighter w-200">
+                        <h1 className="text-3xl lg:text-5xl font-semibold tracking-normal w-200">
                             Work Samples
                         </h1>
                         <div className="ml-5 w-full h-0.5 bg-gradient-to-r from-black to-gray-400 rotate-180"></div>

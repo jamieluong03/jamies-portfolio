@@ -36,9 +36,9 @@ export default function Accordion({
           aria-controls={`accordion-text-${id}`}
         >
           <div>
-            <p className="text-2xl">{title}</p>
-            <p className="text-base text-(--pink-500)">{company}</p>
-            <p className="text-base">{dates}</p>
+            <p className="text-2xl tracking-tight">{title}</p>
+            <p className="text-base text-(--pink-500) tracking-tight">{company}</p>
+            <p className="text-base tracking-tight">{dates}</p>
           </div>
           <svg className="fill-(--pink-500) shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
             <rect y="7" width="16" height="2" rx="1" className={`ttransform origin-center transition duration-200 ease-out ${accordionOpen && '!rotate-180'}`} />

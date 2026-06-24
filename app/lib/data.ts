@@ -8,39 +8,6 @@ export const contact:Contact = {
 
 export const experience:Experience = [
     {
-        company: 'Freelance',
-        title: 'Frontend Developer',
-        dates: 'March 2024 - Present',
-        details: [
-            'Translated Figma designs into production-ready Shopify storefronts using Shadow DOM, Flexbox, CSS Grid, and semantic HTML5 — working directly with clients from spec to launch',
-            'Migrated 2 Zendesk brand instances to a new independent account, transferring 2,000+ tickets, 19 ticket fields, 6 views, 2 forms, 12 business rules, and ~30 help center articles using Python scripts and Postman.',
-            'Diagnosed and resolved Google Search Console errors — including invalid structured data and crawlability issues — to improve organic search eligibility for client sites.'
-        ],
-        work: [
-            {
-                title: 'Popfunk',
-                link: 'https://www.popfunk.com/'
-            },
-            {
-                title: 'Weldwork',
-                link: 'https://www.weldwork.com/'
-            },
-            {
-                title: 'Weldwork Design',
-                link: 'https://www.weldworkdesign.com/'
-            },
-            {
-                title: 'Camp Snap',
-                link: 'https://www.campsnap.com/'
-            },
-            {
-                title: 'Saint Jane Beauty',
-                link: 'https://saintjanebeauty.com/'
-            }
-        ],
-        active: false
-    },
-    {
         company: 'E. Gluck Corporation',
         title: 'Web Developer',
         dates: 'August 2022 - January 2026',
@@ -72,6 +39,39 @@ export const experience:Experience = [
             {
                 title: 'E Gluck',
                 link: 'https://egluck.com/'
+            }
+        ],
+        active: false
+    },
+    {
+        company: 'Freelance',
+        title: 'Frontend Developer',
+        dates: 'March 2024 - Present',
+        details: [
+            'Translated Figma designs into production-ready Shopify storefronts using Shadow DOM, Flexbox, CSS Grid, and semantic HTML5 — working directly with clients from spec to launch',
+            'Migrated 2 Zendesk brand instances to a new independent account, transferring 2,000+ tickets, 19 ticket fields, 6 views, 2 forms, 12 business rules, and ~30 help center articles using Python scripts and Postman.',
+            'Diagnosed and resolved Google Search Console errors — including invalid structured data and crawlability issues — to improve organic search eligibility for client sites.'
+        ],
+        work: [
+            {
+                title: 'Popfunk',
+                link: 'https://www.popfunk.com/'
+            },
+            {
+                title: 'Weldwork',
+                link: 'https://www.weldwork.com/'
+            },
+            {
+                title: 'Weldwork Design',
+                link: 'https://www.weldworkdesign.com/'
+            },
+            {
+                title: 'Camp Snap',
+                link: 'https://www.campsnap.com/'
+            },
+            {
+                title: 'Saint Jane Beauty',
+                link: 'https://saintjanebeauty.com/'
             }
         ],
         active: false

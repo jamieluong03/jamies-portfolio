@@ -29,7 +29,7 @@ export function TechStack() {
         ></div>
         <div className="relative h-full lg:w-full pt-10 lg:px-20 mb-20 lg:mb-60">
           <div className="flex items-center w-80 mx-auto lg:w-full pt-10">
-            <h1 className="text-3xl lg:text-5xl font-semibold tracking-tighter w-100">
+            <h1 className="text-3xl lg:text-5xl font-semibold tracking-normal w-100">
               Tech Stack
             </h1>
             <div className="ml-5 w-full h-0.5 bg-gradient-to-r from-black to-gray-400 rotate-180"></div>

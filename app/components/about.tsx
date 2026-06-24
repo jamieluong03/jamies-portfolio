@@ -30,7 +30,7 @@ export function About() {
         ></div>
         <div className="relative h-full lg:w-full pt-10 lg:px-10 mb-20 lg:mb-40">
           <div className="flex items-center w-80 mx-auto lg:w-full pt-10">
-            <h1 className="text-3xl lg:text-5xl font-semibold tracking-tighter w-100">
+            <h1 className="text-3xl lg:text-5xl font-semibold tracking-normal w-100">
               About Me
             </h1>
             <div className="ml-5 w-full h-0.5 bg-gradient-to-r from-black to-gray-400 rotate-180"></div>
@@ -46,7 +46,7 @@ export function About() {
                   height={800}
                   loading="eager"
                 />
-                <h1 className="text-center font-bold text-3xl lg:text-5xl mb-2">Jamie Luong</h1>
+                <h1 className="text-center font-bold text-3xl lg:text-5xl mb-2 tracking-normal">Jamie Luong</h1>
               </div>
             </div>
             <div className="max-w-sm lg:max-w-none lg:mt-30 lg:pl-0 lg:pr-20 sm:mb-10 p-5">
