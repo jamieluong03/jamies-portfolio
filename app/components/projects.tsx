@@ -46,7 +46,7 @@ export function Project() {
                     <div className="flex justify-center w-full gap-5">
                         <div className="flex flex-wrap gap-5 justify-center lg:justify-start max-w-7xl mx-auto">
                         {projects.map((project, index) => (
-                            <div key={index} className="w-xs md:w-sm border-2 rounded-2xl border-solid border-(--gray-900) p-5 hover:bg-(--pink-100)">
+                            <div key={index} className="w-xs md:w-sm border-2 rounded-2xl border-solid border-(--gray-400) p-5 hover:bg-(--pink-50)">
                                 <div className="flex justify-between">
                                 <h3 className="text-[20px] md:text-2xl">{project.name}</h3>
                                 <div className="flex gap-2">
