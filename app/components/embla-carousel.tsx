@@ -94,12 +94,12 @@ export const EmblaCarousel = () => {
                                     sizes="100vw"
                                     className="object-cover md:opacity-70 group-hover:opacity-100 transition-opacity duration-300"
                                 />
-                                <div className="hidden md:flex absolute inset-0 border border-(--gray-600) bg-gradient-to-t from-black/80 via-black/40 via-40% to-transparent flex-col justify-end p-6">
-                                    <h2 className="text-white">{cat.title}</h2>
+                                <div className="hidden md:flex absolute inset-0 border border-(--gray-700) bg-gradient-to-t from-black/80 via-black/50 via-40% to-transparent flex-col justify-end p-6">
+                                    <h3 className="text-white tracking-tight">{cat.title}</h3>
                                     <span className="text-sm font-mono text-white mt-1">
                                         {cat.brands} — {cat.images.length} Samples
                                     </span>
-                                    <p className="text-white text-xs mt-1">
+                                    <p className="text-white text-sm mt-1">
                                         {cat.description}
                                     </p>
                                 </div>
@@ -109,7 +109,7 @@ export const EmblaCarousel = () => {
                                 <span className="text-xs font-mono text-(--gray-700) mt-1">
                                     {cat.images.length} Samples
                                 </span>
-                                <p className="text-(--gray-700) text-xs mt-1">
+                                <p className="text-(--gray-700) text-sm mt-1">
                                     {cat.description}
                                 </p>
                             </div>

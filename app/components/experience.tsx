@@ -38,11 +38,11 @@ export function Experience() {
                 <div className="lg:px-20 w-auto max-w-sm lg:max-w-none mx-auto px-4 sm:px-6 lg:px-8 relative h-full">
                     {experience.map((experience, index) => (
                         <Accordion key={index} title={experience.title} company={experience.company} dates={experience.dates} id={`experience-${index}`} active={experience.active}>
-                            <ul className="ml-4">
+                            <ul className="ml-4 mt-4">
                                 {experience.details.map(detail => (
-                                    <li className="mb-2 flex items-start" key={detail}>
+                                    <li className="mb-4 flex items-start" key={detail}>
                                         <span className="w-1.5 h-1.5 mt-2 mr-3 flex-shrink-0 bg-pink-300/100 rounded-lg"></span>
-                                        <span>{detail}</span>
+                                        <span className="text-sm md:text-base">{detail}</span>
                                     </li>
                                 ))}
                             </ul>
