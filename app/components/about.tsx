@@ -50,13 +50,13 @@ export function About() {
             </div>
             <div className="max-w-sm lg:max-w-none lg:mt-30 lg:pl-0 lg:pr-20 sm:mb-10 p-5">
               <p className="mb-4">
-                I’m a Frontend-Focused Software Engineer focused on building high-performance, scalable web applications. Professionally, my career has been rooted in the e-commerce space, where I’ve spent the last four years scaling platforms on Shopify and WordPress. This environment taught me how to engineer for scale—building for millions of annual users and ensuring every UI component is as performant as it is responsive. Whether I was authoring API documentation or optimizing the critical rendering path, my goal was always to make the web faster and more reliable.
+                Frontend engineer with 5+ years building performant web applications across e-commerce and SaaS platforms. I focus on writing clean, scalable JavaScript, building UI that works at scale, and integrating systems through REST and GraphQL APIs.
               </p>
               <p className="mb-4">
-                While my professional roles have focused on the frontend, my personal work is where I dive into the full stack. I’m an engineer who loves the "invisible" parts of an application as much as the interface. My current projects allow me to work across the entire lifecycle—architecting relational databases, building Node.js servers, and managing global state.
+                While my professional focus has been on the frontend, I'm comfortable reaching into the backend when the problem calls for it — serverless functions, SQL, API integrations, and automation scripts are all part of how I work.
               </p>
               <p className="mb-4">
-                I’m now looking to transition into product-focused engineering roles where I can combine my professional experience in high-traffic ecosystems with my full-stack expertise to build scalable web systems.
+                I'm currently open to new opportunities in frontend and full-stack engineering.
               </p>
             </div>
           </div>
