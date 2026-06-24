@@ -44,6 +44,7 @@ export function About() {
                   alt="Profile Picture"
                   width={800}
                   height={800}
+                  loading="eager"
                 />
                 <h1 className="text-center font-bold text-3xl lg:text-5xl mb-2">Jamie Luong</h1>
               </div>
