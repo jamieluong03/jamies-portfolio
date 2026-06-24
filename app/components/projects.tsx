@@ -14,7 +14,7 @@ export function Project() {
             <section id="projects" className="relative w-full">
                 <div
                     style={{
-                        backgroundImage: `url('/desktop-pink-bg.png')`,
+                        backgroundImage: `url('/desktop-gray-bg.png')`,
                         backgroundPosition: "center",
                         backgroundSize: "contain",
                         backgroundRepeat: "no-repeat",
@@ -26,7 +26,7 @@ export function Project() {
                 ></div>
                 <div
                     style={{
-                        backgroundImage: `url('/mobile-pink-bg.png')`,
+                        backgroundImage: `url('/mobile-gray-bg.png')`,
                         backgroundPosition: "center",
                         backgroundSize: "contain",
                         backgroundRepeat: "no-repeat",

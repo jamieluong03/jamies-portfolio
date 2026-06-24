@@ -6,7 +6,7 @@ export function Experience() {
         <section id="experience" className="relative w-full">
             <div
                 style={{
-                    backgroundImage: `url('/desktop-gray-bg.png')`,
+                    backgroundImage: `url('/desktop-pink-bg.png')`,
                     backgroundPosition: "center",
                     backgroundSize: "contain",
                     backgroundRepeat: "no-repeat",
@@ -18,7 +18,7 @@ export function Experience() {
             ></div>
             <div
                 style={{
-                    backgroundImage: `url('/mobile-gray-bg.png')`,
+                    backgroundImage: `url('/mobile-pink-bg.png')`,
                     backgroundPosition: "center",
                     backgroundSize: "contain",
                     backgroundRepeat: "no-repeat",

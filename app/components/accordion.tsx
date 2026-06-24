@@ -30,7 +30,7 @@ export default function Accordion({
     <div className="py-2">
       <h2>
         <button
-          className="flex items-center justify-between w-full text-left font-semibold py-2 mb-2 bg-(--pink-50) hover:bg-(--pink-100) border-2 rounded-md border-(--pink-100) p-10"
+          className="flex items-center justify-between w-full text-left font-semibold py-2 mb-2 bg-(--gray-50) hover:bg-(--gray-200) border-2 rounded-md border-(--gray-400) p-10"
           onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
           aria-expanded={accordionOpen}
           aria-controls={`accordion-text-${id}`}
