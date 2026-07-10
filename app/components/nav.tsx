@@ -10,7 +10,8 @@ const navItems: Record<string, { name: string; icon?: React.ReactNode }> = {
   '/#experience': { name: 'experience' },
   '/#projects': { name: 'projects' },
   '/#tech-stack': { name: 'tech stack' },
-  '/#about': { name: 'about' }
+  '/#about': { name: 'about' },
+  '/resume.pdf': { name: 'resume' }
 };
 
 export function Navbar() {
@@ -56,7 +57,7 @@ export function Navbar() {
     <aside className="fixed top-0 inset-x-0 z-50 h-auto border-b border-gray-200 bg-white/80">
       <div className="max-w-screen-xl mx-auto px-1">
         <div className="flex items-center justify-between md:justify-around p-4 md:py-3 border-b md:border-0 border-(--gray-200)">
-          
+
           <Link href="/" className="font-bold md:hidden">Jamie's Portfolio</Link>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
@@ -71,22 +72,46 @@ export function Navbar() {
           `}>
             {Object.entries(navItems).map(([path, { name, icon }]) => {
               const isActive = activeSection === path;
+              const isExternalFile = path.endsWith('.pdf');
+
+              const linkClassName = `
+                  px-4 py-2 rounded-full transition-all duration-300 capitalize flex items-center gap-2
+                  ${isActive
+                  ? "bg-pink-100 border border-pink-500 text-pink-700 font-bold"
+                  : "text-gray-600 hover:bg-gray-100 border border-transparent"
+                }
+              `;
+
+              const content = (
+                <>
+                  {icon && <span className={`hidden md:block ${isActive ? "text-pink-600" : "text-gray-500"}`}>{icon}</span>}
+                  <span className={`font-bold ${name == "home" ? "block md:hidden lg:hidden" : ""} ${icon ? "md:hidden lg:block" : ""}`}>{name}</span>
+                </>
+              );
+
+              if (isExternalFile) {
+                return (
+                  <a
+                    key={path}
+                    href={path}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsOpen(false)}
+                    className={"px-4 py-2 rounded-full bg-(--pink-200) capitalize hover:text-white font-bold hover:bg-(--pink-600) transition-all duration-300 flex items-center gap-2"}
+                  >
+                    {content}
+                  </a>
+                );
+              }
 
               return (
                 <Link
                   key={path}
                   href={path}
                   onClick={() => setIsOpen(false)}
-                  className={`
-                    px-4 py-2 rounded-full transition-all duration-300 capitalize flex items-center gap-2
-                    ${isActive 
-                      ? "bg-pink-100 border border-pink-500 text-pink-700 font-bold" 
-                      : "text-gray-600 hover:bg-gray-100 border border-transparent"
-                    }
-                  `}
+                  className={linkClassName}
                 >
-                  {icon && <span className={`hidden md:block ${isActive ? "text-pink-600" : "text-gray-500"}`}>{icon}</span>}
-                  <span className={`font-bold ${name == "home" ? "block md:hidden lg:hidden" : ""} ${icon ? "md:hidden lg:block" : ""}`}>{name}</span>
+                  {content}
                 </Link>
               );
             })}
